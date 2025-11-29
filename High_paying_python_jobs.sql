@@ -1,7 +1,12 @@
 
 
-/*Write one SQL query (you can and should use multiple CTEs) that returns info about high-paying remote data/analytics jobs requiring Python.
- COMPLEX QUERY */
+-- High-Paying Python Jobs Analysis (2023)
+-- Demonstrates CTEs, window functions, many-to-many joins, CASE logic, and a correlated EXISTS filter
+
+/*Write a SQL query to identify high-paying, fully remote job postings from 2023 that require Python, 
+and compute company-level and role-level salary and posting metrics using window functions. Only include 
+companies that posted at least one Senior role in 2023 and have at least 10 Python-related remote postings.
+*/
 
 with base_jobs_2023 as (	
 	select 	
@@ -80,6 +85,7 @@ WHERE
 
 
 	
+
 
 
 
