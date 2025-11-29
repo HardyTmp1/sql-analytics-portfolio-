@@ -22,4 +22,4 @@ Find remote job postings from 2023 where:
 
 ## 🛠 SQL File
 See the full query here:
-👉 high_paying_python_jobs.sql
+👉 [high_paying_python_jobs.sql](./high_paying_python_jobs.sql)
